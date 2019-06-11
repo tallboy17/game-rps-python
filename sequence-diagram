@@ -1,5 +1,9 @@
-graph TD;
-    A-->B;
-    A-->C;
-    B-->D;
-    C-->D;
+sequenceDiagram
+    participant Arjun
+    participant Jayesh
+    Arjun->>Jayesh: Do you want to play Rock, Paper or Scissors game ?
+    Jayesh-->>Arjun: Lets Play!
+    Arjun->>Jayesh:Rock
+    Jayesh-->>Arjun: Paper
+   Jayesh-->>Arjun: I win!
+   Arjun-->>Jayesh: Oh boy!

@@ -45,3 +45,8 @@ I have just finished 5th grade, and am going into sixth.
 I am excited about this project.
 ©2019, Jayesh Kankanala, Arjun Maganti
 
+
+----------------------------------------------------------------
+
+![GitHub Logo](/mermaid-diagram-20190611162019.svg)
+

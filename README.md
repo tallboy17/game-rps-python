@@ -1,7 +1,6 @@
-# game-rps-python
+## game-rps-python
 A popular game, rock, paper, scissors, in Python.
 RPS game 
-
 Date:June 10, 2019
 Version: 1.2
 
@@ -10,7 +9,7 @@ We are developing a game, played by many, called rock, paper, scissors.
 Settings (How Game is Played)
 The player will choose an option (rock, paper, or scissors) against a computer, who will have a randomly chosen pattern which will be adjusted based on if it thinks you have figured out the pattern. The computer will count down and at the end you must have chosen your option. You can not change your option.
 
-Plot (What is the game)
+
 What is the game?: Rock, Paper Scissors is a game in which a player chooses an option (rock, paper, or scissors) against another person or computer. Specific options beat other options: rock beats scissors, paper beats rock, scissors beats paper. If the same option is put, repeat the round until some player wins.
 
 Characters (Who are the players)
@@ -25,23 +24,15 @@ Think of a letter quickly so there is more matches for you to play
 You can not change your answer so be confident with your answer
 
 
-
-
-
-
 Age group: 3-12
 Overview: The player will select an option (rock, paper or scissors) against a computer , whose option will be randomly chosen
 
 
-
-
-
-
-About
+# About
 We wanted to make our first project relating to the game rock, paper, scissors. We are fifth graders going to sixth, and thought our first project should be this game. We are just starting to learn coding, and this is both of our first projects.
 
 
-Team
+# Team
 Jayesh Kankanala
 
 I want to learn coding and am trying to be a software genius.

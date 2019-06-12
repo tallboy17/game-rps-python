@@ -43,12 +43,17 @@ Arjun Maganti
 I want to be an engineer, also working with computer sciences.
 I have just finished 5th grade, and am going into sixth.
 I am excited about this project.
-©2019, Jayesh Kankanala, Arjun Maganti
+©2019, Jayesh Kankanala, Arjun Maganti 
 
 
 ----------------------------------------------------------------
 
 # RPS Sequence Diagram
 
-![GitHub Logo](/mermaid-diagram-20190611162019.svg)
+![Sequence Diagram](/mermaid-diagram-20190611162019.svg)
+
+# RPS Flowchart
+
+![Flowchart](/mermaid-diagram-20190611182108.svg)
+
 

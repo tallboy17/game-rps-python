@@ -48,7 +48,7 @@ I am excited about this project.
 
 ----------------------------------------------------------------
 
-# RPC Sequence Diagram
+# RPS Sequence Diagram
 
 ![GitHub Logo](/mermaid-diagram-20190611162019.svg)
 

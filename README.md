@@ -1,4 +1,4 @@
-## RPC Game
+## RPS Game
 A popular game, rock, paper, scissors, in Python.
 RPS game 
 Date:June 10, 2019

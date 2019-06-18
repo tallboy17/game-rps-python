@@ -58,43 +58,65 @@ I am excited about this project.
 
 
 # Pseudo Code
- Pseudo Code
+ <ol style="margin-top: 0pt; margin-bottom: 0pt;">
+<li style="list-style-type: decimal; font-size: 12pt; font-family: Arial; color: #000000; background-color: transparent; font-weight: 400; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre;"><span style="font-size: 12pt; font-family: Arial; color: #000000; background-color: transparent; font-weight: 400; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">Variables</span></li>
+<ol style="margin-top: 0pt; margin-bottom: 0pt;">
+<li style="list-style-type: lower-alpha; font-size: 12pt; font-family: Arial; color: #000000; background-color: transparent; font-weight: 400; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre;"><span style="font-size: 12pt; font-family: Arial; color: #000000; background-color: transparent; font-weight: 400; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">user_selection</span></li>
+<li style="list-style-type: lower-alpha; font-size: 12pt; font-family: Arial; color: #000000; background-color: transparent; font-weight: 400; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre;"><span style="font-size: 12pt; font-family: Arial; color: #000000; background-color: transparent; font-weight: 400; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">computer_selection</span></li>
+<li style="list-style-type: lower-alpha; font-size: 12pt; font-family: Arial; color: #000000; background-color: transparent; font-weight: 400; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre;"><span style="font-size: 12pt; font-family: Arial; color: #000000; background-color: transparent; font-weight: 400; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">Vocabulary = {&ldquo;R&rdquo;: &ldquo;ROCK&rdquo;, &ldquo;P&rdquo;: &ldquo;PAPER&rdquo;, &ldquo;S&rdquo;: &ldquo;SCISSORS&rdquo;}</span></li>
+</ol>
+<li style="list-style-type: decimal; font-size: 12pt; font-family: Arial; color: #000000; background-color: transparent; font-weight: 400; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre;"><span style="font-size: 12pt; font-family: Arial; color: #000000; background-color: transparent; font-weight: 400; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">User flow</span></li>
+<ol style="margin-top: 0pt; margin-bottom: 0pt;">
+<li style="list-style-type: lower-alpha; font-size: 12pt; font-family: Arial; color: #000000; background-color: transparent; font-weight: 400; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre;"><span style="font-size: 12pt; font-family: Arial; color: #000000; background-color: transparent; font-weight: 400; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">Input &ldquo;Do you want to play rock, paper, scissors? Y(Yes), N(No)&rdquo;</span></li>
+<ol style="margin-top: 0pt; margin-bottom: 0pt;">
+<li style="list-style-type: lower-roman; font-size: 12pt; font-family: Arial; color: #000000; background-color: transparent; font-weight: 400; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre;"><span style="font-size: 12pt; font-family: Arial; color: #000000; background-color: transparent; font-weight: 400; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">if not [&ldquo;Y, N&rdquo;] </span></li>
+<ol style="margin-top: 0pt; margin-bottom: 0pt;">
+<li style="list-style-type: decimal; font-size: 12pt; font-family: Arial; color: #000000; background-color: transparent; font-weight: 400; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre;"><span style="font-size: 12pt; font-family: Arial; color: #000000; background-color: transparent; font-weight: 400; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">Print &ldquo;Sorry, you have failed reading the instructions. Please try harder.&rdquo;</span></li>
+<li style="list-style-type: decimal; font-size: 12pt; font-family: Arial; color: #000000; background-color: transparent; font-weight: 400; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre;"><span style="font-size: 12pt; font-family: Arial; color: #000000; background-color: transparent; font-weight: 400; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">JUMP TO 2.a</span></li>
+</ol>
+<li style="list-style-type: lower-roman; font-size: 12pt; font-family: Arial; color: #000000; background-color: transparent; font-weight: 400; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre;"><span style="font-size: 12pt; font-family: Arial; color: #000000; background-color: transparent; font-weight: 400; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">if N </span></li>
+<ol style="margin-top: 0pt; margin-bottom: 0pt;">
+<li style="list-style-type: decimal; font-size: 12pt; font-family: Arial; color: #000000; background-color: transparent; font-weight: 400; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre;"><span style="font-size: 12pt; font-family: Arial; color: #000000; background-color: transparent; font-weight: 400; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">Print &ldquo;Thank you for playing rock, paper, scissors. Come back soon!&rdquo;</span></li>
+<li style="list-style-type: decimal; font-size: 12pt; font-family: Arial; color: #000000; background-color: transparent; font-weight: 400; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre;"><span style="font-size: 12pt; font-family: Arial; color: #000000; background-color: transparent; font-weight: 400; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">END GAME</span></li>
+</ol>
+<li style="list-style-type: lower-roman; font-size: 12pt; font-family: Arial; color: #000000; background-color: transparent; font-weight: 400; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre;"><span style="font-size: 12pt; font-family: Arial; color: #000000; background-color: transparent; font-weight: 400; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">if Y</span></li>
+<ol style="margin-top: 0pt; margin-bottom: 0pt;">
+<li style="list-style-type: decimal; font-size: 12pt; font-family: Arial; color: #000000; background-color: transparent; font-weight: 400; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre;"><span style="font-size: 12pt; font-family: Arial; color: #000000; background-color: transparent; font-weight: 400; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">Computer selects randomly one of the choices</span></li>
+<li style="list-style-type: decimal; font-size: 12pt; font-family: Arial; color: #000000; background-color: transparent; font-weight: 400; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre;"><span style="font-size: 12pt; font-family: Arial; color: #000000; background-color: transparent; font-weight: 400; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">input &ldquo;I picked my choice, please select one of these three choices, Rock, Paper, or Scissors. R(Rock), P(Paper), S(Scissors)&rdquo;</span></li>
+<ol style="margin-top: 0pt; margin-bottom: 0pt;">
+<li style="list-style-type: lower-alpha; font-size: 12pt; font-family: Arial; color: #000000; background-color: transparent; font-weight: 400; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre;"><span style="font-size: 12pt; font-family: Arial; color: #000000; background-color: transparent; font-weight: 400; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">if not [&ldquo;R, P, S&rdquo;] </span></li>
+<ol style="margin-top: 0pt; margin-bottom: 0pt;">
+<li style="list-style-type: lower-roman; font-size: 12pt; font-family: Arial; color: #000000; background-color: transparent; font-weight: 400; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre;"><span style="font-size: 12pt; font-family: Arial; color: #000000; background-color: transparent; font-weight: 400; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">Print &ldquo;Sorry, you have failed spelling. Please try harder :D.&rdquo;</span></li>
+<li style="list-style-type: lower-roman; font-size: 12pt; font-family: Arial; color: #000000; background-color: transparent; font-weight: 400; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre;"><span style="font-size: 12pt; font-family: Arial; color: #000000; background-color: transparent; font-weight: 400; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">JUMP TO 2.a.iii.2</span></li>
+</ol>
+<li style="list-style-type: lower-alpha; font-size: 12pt; font-family: Arial; color: #000000; background-color: transparent; font-weight: 400; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre;"><span style="font-size: 12pt; font-family: Arial; color: #000000; background-color: transparent; font-weight: 400; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">If user_selection is R and computer_selection is S</span></li>
+<ol style="margin-top: 0pt; margin-bottom: 0pt;">
+<li style="list-style-type: lower-roman; font-size: 12pt; font-family: Arial; color: #000000; background-color: transparent; font-weight: 400; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre;"><span style="font-size: 12pt; font-family: Arial; color: #000000; background-color: transparent; font-weight: 400; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">Print &ldquo;User selected Rock and computer selected Scissors.Rock beats Scissors! Congrats, you are better than a computer:D.&rdquo;</span></li>
+<li style="list-style-type: lower-roman; font-size: 12pt; font-family: Arial; color: #000000; background-color: transparent; font-weight: 400; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre;"><span style="font-size: 12pt; font-family: Arial; color: #000000; background-color: transparent; font-weight: 400; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">JUMP TO 2.a</span></li>
+</ol>
+<li style="list-style-type: lower-alpha; font-size: 12pt; font-family: Arial; color: #000000; background-color: transparent; font-weight: 400; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre;"><span style="font-size: 12pt; font-family: Arial; color: #000000; background-color: transparent; font-weight: 400; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">If user_selection is P and computer_selection is R</span></li>
+<ol style="margin-top: 0pt; margin-bottom: 0pt;">
+<li style="list-style-type: lower-roman; font-size: 12pt; font-family: Arial; color: #000000; background-color: transparent; font-weight: 400; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre;"><span style="font-size: 12pt; font-family: Arial; color: #000000; background-color: transparent; font-weight: 400; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">Print &ldquo;User selected Paper and computer selected Rock. Paper beats Rock! Congrats, you are better than a computer:D.&rdquo;</span></li>
+<li style="list-style-type: lower-roman; font-size: 12pt; font-family: Arial; color: #000000; background-color: transparent; font-weight: 400; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre;"><span style="font-size: 12pt; font-family: Arial; color: #000000; background-color: transparent; font-weight: 400; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">JUMP TO 2.a</span></li>
+</ol>
+<li style="list-style-type: lower-alpha; font-size: 12pt; font-family: Arial; color: #000000; background-color: transparent; font-weight: 400; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre;"><span style="font-size: 12pt; font-family: Arial; color: #000000; background-color: transparent; font-weight: 400; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">If user_selection is S and computer_selection is P</span></li>
+<ol style="margin-top: 0pt; margin-bottom: 0pt;">
+<li style="list-style-type: lower-roman; font-size: 12pt; font-family: Arial; color: #000000; background-color: transparent; font-weight: 400; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre;"><span style="font-size: 12pt; font-family: Arial; color: #000000; background-color: transparent; font-weight: 400; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">Print &ldquo;The user selected Scissors and computer selected paper. Scissors beats Paper! Congrats, you are better than a computer&rdquo;</span></li>
+<li style="list-style-type: lower-roman; font-size: 12pt; font-family: Arial; color: #000000; background-color: transparent; font-weight: 400; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre;"><span style="font-size: 12pt; font-family: Arial; color: #000000; background-color: transparent; font-weight: 400; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">JUMP TO 2.a</span></li>
+</ol>
+<li style="list-style-type: lower-alpha; font-size: 12pt; font-family: Arial; color: #000000; background-color: transparent; font-weight: 400; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre;"><span style="font-size: 12pt; font-family: Arial; color: #000000; background-color: transparent; font-weight: 400; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">If user_selection is equal to computer_selection</span></li>
+<ol style="margin-top: 0pt; margin-bottom: 0pt;">
+<li style="list-style-type: lower-roman; font-size: 12pt; font-family: Arial; color: #000000; background-color: transparent; font-weight: 400; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre;"><span style="font-size: 12pt; font-family: Arial; color: #000000; background-color: transparent; font-weight: 400; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">Print &ldquo;The user selected the same as the computer. Let&rsquo;s redo the round&rdquo;</span></li>
+<li style="list-style-type: lower-roman; font-size: 12pt; font-family: Arial; color: #000000; background-color: transparent; font-weight: 400; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre;"><span style="font-size: 12pt; font-family: Arial; color: #000000; background-color: transparent; font-weight: 400; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">JUMP TO 2.aiii.2</span></li>
+</ol>
+<li style="list-style-type: lower-alpha; font-size: 12pt; font-family: Arial; color: #000000; background-color: transparent; font-weight: 400; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre;"><span style="font-size: 12pt; font-family: Arial; color: #000000; background-color: transparent; font-weight: 400; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">Else</span></li>
+<ol style="margin-top: 0pt; margin-bottom: 0pt;">
+<li style="list-style-type: lower-roman; font-size: 12pt; font-family: Arial; color: #000000; background-color: transparent; font-weight: 400; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre;"><span style="font-size: 12pt; font-family: Arial; color: #000000; background-color: transparent; font-weight: 400; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">Print &ldquo;You lost to a computer. Please go try hard mode next time :(&rdquo; </span></li>
+<li style="list-style-type: lower-roman; font-size: 12pt; font-family: Arial; color: #000000; background-color: transparent; font-weight: 400; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre;"><span style="font-size: 12pt; font-family: Arial; color: #000000; background-color: transparent; font-weight: 400; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">JUMP TO 2.a</span></li>
+</ol>
+</ol>
 
-```
-Variables
-user_selection
-computer_selection
-Vocabulary = {“R”: “ROCK”, “P”: “PAPER”, “S”: “SCISSORS”}
-User flow
-Input “Do you want to play rock, paper, scissors? Y(Yes), N(No)”
-if not [“Y, N”] 
-Print “Sorry, you have failed reading the instructions. Please try harder.”
-JUMP TO 2.a
-if N 
-Print “Thank you for playing rock, paper, scissors. Come back soon!”
-END GAME
-if Y
-Computer selects randomly one of the choices
-input “I picked my choice, please select one of these three choices, Rock, Paper, or Scissors. R(Rock), P(Paper), S(Scissors)”
-if not [“R, P, S”] 
-Print “Sorry, you have failed spelling. Please try harder :D.”
-JUMP TO 2.a.iii.2
-If user_selection is R and computer_selection is S
-Print “User selected Rock and computer selected Scissors.Rock beats Scissors! Congrats, you are better than a computer:D.”
-JUMP TO 2.a
-If user_selection is P and computer_selection is R
-Print “User selected Paper and computer selected Rock. Paper beats Rock! Congrats, you are better than a computer:D.”
-JUMP TO 2.a
-If user_selection is S and computer_selection is P
-Print “The user selected Scissors and computer selected paper. Scissors beats Paper! Congrats, you are better than a computer”
-JUMP TO 2.a
-If user_selection is equal to computer_selection
-Print “The user selected the same as the computer. Let’s redo the round”
-JUMP TO 2.aiii.2
-Else
-Print “You lost to a computer. Please go try hard mode next time :(” 
-JUMP TO 2.a
-```
+<p>&nbsp;</p>
 
 
 

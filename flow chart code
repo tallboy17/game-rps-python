@@ -1,0 +1,10 @@
+graph TD
+A[Start] -->B{let's play}
+B-->|No|C[Game over]
+B-->|Yes|D[I am ready. Are you?]
+D-->E[Type R, P, or S]
+E-->|R|F{Validate rules}
+G(Computer)-->|S|F
+F-->H(Player won)
+H-->|Play Again|B
+I[Rules: <li>Rock beats Scissors <li> Paper beats Rock<li>Scissors beats Paper]

@@ -1,0 +1,9 @@
+sequenceDiagram
+participant Arjun
+participant Jayesh
+Arjun->>Jayesh: Do you want to play Rock, Paper ,Scissors game?
+Jayesh->>Arjun:Let's play!
+Arjun->>Jayesh:Rock
+Jayesh->>Arjun:Paper
+Jayesh->>Arjun:I win!
+Arjun->>Jayesh:Oh boy!
